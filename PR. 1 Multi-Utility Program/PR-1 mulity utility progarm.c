@@ -12,7 +12,7 @@ int main()
     printf(" Fahrenheit = %.1f",Fahrenheit);
     return 0;  
 }
-//Gross salary calcultor
+
 
 #include<stdio.h>
 int main()
