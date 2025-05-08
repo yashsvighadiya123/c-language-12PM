@@ -1,28 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    long long n;
-    int count = 0;
-
-    printf("Enter an integer: ");
-    scanf("%lld", &n);
-
+    int no,cnt=1;
     
-    if (n == 0) {
-        count = 1;
-    } else {
-        
-        if (n < 0) {
-            n = -n;
-        }
-
+    printf("Enter no :- ");
+    scanf("%d",&no);
     
-        do {
-            n /= 10;
-            ++count;
-        } while (n != 0);
-    }
+    while(no > 0){
+    	cnt++;
+    	no=no/10;
+	}
+	printf("Count :- %d",cnt);
 
-    printf("Number of digits: %d\n", count);
-    re
+	
+
+}
 

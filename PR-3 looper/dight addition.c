@@ -16,7 +16,7 @@ int main() {
         firstDigit /= 10;
     }
 
-printf(first digit && last digit);
+	printf("Sum of %d",lastDigit + firstDigit);
 
 
     
