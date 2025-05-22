@@ -1,6 +1,6 @@
 #include<stdio.h>
 main(){
-	printf("name:-yashsvi");
-	printf( "age:-18");
-	printf("school :- royal school");
+	printf("name:-yashsvi\n");
+	printf( "age:-18\n");
+	printf("school :- royal school\n");
 }
